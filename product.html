@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Product Name</title>
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+
+<div itemprop="breadcrumb">
+    <a href="/">Home</a> &#10095;
+    <a href="/category">Category</a> &#10095;
+    <a href="/product">Product</a>
+</div>
+
+<div itemscope itemtype="http://schema.org/Product">
+    <h1 itemprop="name">iPod Touch</h1>
+    <img src="/img/products/main.jpg" alt="" />
+    <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+        Rated <span itemprop="ratingValue">4.5</span>/5
+        based on <span itemprop="reviewCount">11</span> customer reviews
+    </div>
+
+    <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        <span itemprop="price">&pound;199.00</span>
+        <link itemprop="availability" href="http://schema.org/InStock" />In stock
+    </div>
+
+    <h2>Product description:</h2>
+    <p itemprop="description">For the first time, iPod touch is made from the same kind of anodised aluminium used in the MacBook line.</p>
+
+    <section class="customer-reviews">
+        <h3>Customer reviews:</h3>
+
+        <article itemprop="review" itemscope itemtype="http://schema.org/Review">
+            <h4 itemprop="name">Fantasic Device, Love It!</h4>
+            <p>by <span itemprop="author">Ellie</span> - <meta itemprop="datePublished" content="2013-12-01">1st December 2013</p>
+            <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content = "1">
+                <span itemprop="ratingValue">4</span>/
+                <span itemprop="bestRating">5</span>stars
+            </div>
+            <p itemprop="description">Brilliant iPod, could do with better battery life.</p>
+        </article>
+
+        <article itemprop="review" itemscope itemtype="http://schema.org/Review">
+            <h4 itemprop="name">Brilliant!</h4>
+            <p><span itemprop="author">Lucas</span> - <meta itemprop="datePublished" content="2013-11-25"> 25th November 2013</p>
+            <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content = "1"/>
+                <span itemprop="ratingValue">5</span>/
+                <span itemprop="bestRating">5</span>stars
+            </div>
+            <p itemprop="description">Absolutely perfect!</p>
+        </article>
+    </section>
+</div>
+
+</body>
+</html>
