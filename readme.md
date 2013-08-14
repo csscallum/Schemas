@@ -14,4 +14,7 @@ With typical HTML markup, it's not always clear to search engines what the purpo
 # [Recipe](https://github.com/csscallum/Schemas/blob/master/recipe.html)
 ![Example of a recipe schema in Google](https://dl.dropbox.com/s/lheg0b0wn0ux3sf/recipe.png)
 
+# [Event - Sports](https://github.com/csscallum/Schemas/blob/master/event-sports.html)
+![Example of an events schema in Google](https://dl.dropbox.com/s/2uk05vst7qff8n0/recipe.png)
+
 # [Restaurant](https://github.com/csscallum/Schemas/blob/master/restaurant.html)
