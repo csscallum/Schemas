@@ -13,5 +13,6 @@ With typical HTML markup, it's not always clear to search engines what the purpo
 ![Example of a product schema in Google](https://www.dropbox.com/s/5m45emd2gbc1fxq/product.png)
 
 # [Recipe](https://github.com/csscallum/Schemas/blob/master/recipe.html)
+![Example of a recipe schema in Google](https://www.dropbox.com/s/lheg0b0wn0ux3sf/recipe.png)
 
 # [Restaurant](https://github.com/csscallum/Schemas/blob/master/restaurant.html)
